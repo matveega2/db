@@ -39,5 +39,6 @@ public class Main {
 
 
         Util.closeConnection();
+        Util.closeSessionFactory();
     }
 }
